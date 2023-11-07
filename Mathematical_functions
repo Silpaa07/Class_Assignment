@@ -1,0 +1,32 @@
+//Write a program in C to use the numerals-1,9,9 and 6 exactly in the order to make the following numerals-(i)28
+//(ii)32 (iii)35 (iv)38 (v)72 (vi)73 (vii)76 (viii)77 (ix)100 (x)1000
+//Condition-You can use the mathematical functions-+ - * / sqrt and exponent.
+#include <stdio.h>
+#include<math.h>
+int mathematical_functions()
+{
+int a=1+9+sqrt(9)*6;
+int b=(1/(sqrt(9)))*96;
+int c=-19+(9*6);
+int d=19/(sqrt(9)/6);
+int e=(1+sqrt(9))*(sqrt(9)*6);
+int f=19+(9*6);
+int g=1+(9*9)-6;
+int h=-19+96;
+int i=1+(sqrt(9))+96;
+int j=(1+9)^(9-6);
+printf("%d\n",a);
+printf("%d\n",b);
+printf("%d\n",c);
+printf("%d\n",d);
+printf("%d\n",e);
+printf("%d\n",f);
+printf("%d\n",g);
+printf("%d\n",h);
+printf("%d\n",i);
+printf("%d\n",j);
+}
+int main()
+{
+    mathematical_functions();
+}
